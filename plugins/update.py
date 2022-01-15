@@ -1,5 +1,6 @@
 from pyrogram import Client, filters
 from plugins.help import module_list, file_list
+import os
 
 @Client.on_message(filters.command('update', prefixes='!') & filters.me)
 async def update(client, message):
