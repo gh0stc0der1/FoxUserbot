@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from plugins.settings.main_settings.py import module_list, file_list, settings
+from plugins.settings.main_settings import module_list, file_list, settings
 
 prefix = settings['prefix']
 
