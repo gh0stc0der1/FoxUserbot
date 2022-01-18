@@ -17,5 +17,5 @@ async def webshot(client: Client, message: Message):
             message.chat.id, "**Something went wrong...**"
         )
         
-module_list['Webshot'] = f'{prefix}webshot'
+module_list['Webshot'] = f'{prefix}webshot [link]'
 file_list['Webshot'] = 'webshot.py'
