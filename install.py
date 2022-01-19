@@ -1,7 +1,7 @@
 import os
 from colorama import Fore
 import time
-from plugins.help import requirements_list
+from plugins.settings.main_settings  import requirements_list
 
 for rq in requirements_list:
     os.system(f"pip install {rq}")
@@ -12,7 +12,7 @@ print(Fore.GREEN + "Привет. Добро пожаловать в устан�
 time.sleep(1)
 print(Fore.GREEN + "Введите ваш api id. Его можно найти на сайте my.telegram.org")
 api_id = input(Fore.GREEN + ">>> ")
-print(Fore.GREEN + "Спасибо. Введите api hash.")
+print(Fore.GREEN + "Введите api hash.")
 api_hash = input(Fore.GREEN + ">>> ")
 config = open('config.ini', '+w')
 config.write(f"""[pyrogram]
