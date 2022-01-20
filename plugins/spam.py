@@ -1,7 +1,7 @@
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from plugins.settings.module_list import module_list, file_list, settings
+from plugins.settings.main_settings import module_list, file_list, settings
 
 prefix = settings['prefix']
 
