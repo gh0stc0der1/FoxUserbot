@@ -17,4 +17,4 @@ async def unloadmod(client, message):
     except:
         await message.edit("**An error has occurred.**")
  
-module_list['Unloadmod'] = f'{prefix}!unloadmod [module name]'
+module_list ['Unloadmod'] = f'{prefix} unloadmod [module name]'
