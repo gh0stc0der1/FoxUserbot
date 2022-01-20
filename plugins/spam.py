@@ -81,7 +81,7 @@ async def slowspam(client: Client, message: Message):
         msg = await client.send_message(message.chat.id, spam_text)
         await asyncio.sleep(0.9)
 
-@Client.on_message(filters.command("help_spam", prefix=prefix) & filters.me)
+@Client.on_message(filters.command("help_spam", prefixes=prefix) & filters.me)
 async def help_spam(client: Client, message: Message):
     await message.edit(f"""```{prefix}spam [amount of spam] [spam text]``` - **Start spam.**
 ```{prefix}statspam [amount of spam] [spam text]``` - **Send and delete.**
