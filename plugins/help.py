@@ -31,7 +31,7 @@ async def help(client: Client, message: Message):
 <b><a href="https://t.me/foxteam0">💻 | Official FoxTeam Channel.</a></b>
 <b><a href="https://t.me/foxteamchat">🛡 | Official User Support Chat.</a></b>
 <b><a href="https://github.com/gh0stc0der1/FoxUserbot">⛔️ | Github Repository.</a></b>
-<b><a href="https://t.me/foxteam0/10">🤔 | Installation Instructions.</a></b>
+<b><a href="https://telegra.ph/Kak-ustanovit-FoxUserbot-01-20">🤔 | Installation Guide.</a></b>
 
 ❤️ | Thanks for using FoxUserbot.
 ❤️ | If you find a malfunction, write to the support chat.""", disable_web_page_preview=True)
